@@ -1,0 +1,31 @@
+name: rise-environment
+channels:
+  - conda-forge
+dependencies:
+  - rise
+  - fuzzywuzzy
+  - python-Levenshtein
+  - pandas
+  - qgrid
+  - bokeh
+  - xlrd
+  - matplotlib
+  - pandas-gbq
+  - seaborn
+  - chardet
+  - pip:
+    - causalimpact
+    - sklearn
+    - urlclustering
+    
+notebook>=4.0.0
+numpy==1.16.*
+matplotlib==3.*
+seaborn==0.8.1
+qgrid
+pandas>=0.18.0
+scikit-learn
+fuzzywuzzy
+chardet
+ipywidgets>=7.0.0
+xlrd
