@@ -1,3 +1,4 @@
+notebook>=4.0.0
 numpy==1.16.*
 matplotlib==3.*
 seaborn==0.8.1
@@ -6,3 +7,4 @@ pandas
 scikit-learn
 fuzzywuzzy
 chardet
+ipywidgets>=7.0.0
